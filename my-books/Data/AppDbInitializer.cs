@@ -24,24 +24,24 @@ namespace my_books.Data
                             Title = "1st Book title",
                             Description = "1st Book Description",
                             IsRead = true,
-                            DataRead = DateTime.Now.AddDays(-10),
+                            DateRead = DateTime.Now.AddDays(-10),
                             Rate = 4,
                             Genre = "Biography",
                             Author = "First Author",
                             CoverUrl = "https....",
-                            DateAdd = DateTime.Now
+                            DateAdded = DateTime.Now
                         },
                         new Book()
                         {
                             Title = "2st Book title",
                             Description = "2st Book Description",
                             IsRead = true,
-                            DataRead = DateTime.Now.AddDays(-10),
+                            DateRead = DateTime.Now.AddDays(-10),
                             Rate = 5,
                             Genre = "Biography",
                             Author = "Second Author",
                             CoverUrl = "https....",
-                            DateAdd = DateTime.Now
+                            DateAdded = DateTime.Now
                         }
                     );
 
